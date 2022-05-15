@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun May  8 20:03:37 2022
+# Process ID: 13264
+# Current directory: C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13428 C:\Users\Student\Desktop\520_final\520_final\hardware\DMA_to_DDR\DMA_to_DDR.xpr
+# Log file: C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/vivado.log
+# Journal file: C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR\vivado.jou
+# Running On: IT-STULOAN-1119, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 4, Host memory: 8328 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/DMA_to_DDR.xpr
+upgrade_project -migrate_output_products
+report_ip_status -name ip_status 

@@ -1,0 +1,210 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 13264
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun May 08 20:04:51 PDT 2022
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	D:/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Student
+User home directory: C:/Users/Student
+User working directory: C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2021.2
+RDI_DATADIR: D:/Vivado/2021.2/data
+RDI_BINDIR: D:/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/Student/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/Student/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/Student/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	D:/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/vivado.log
+Vivado journal file: 	C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/vivado.jou
+Engine tmp dir: 	C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/.Xil/Vivado-13264-IT-STULOAN-1119
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: D:/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: D:/Vivado/2021.2
+XILINX_SDK: D:/Vitis/2021.2
+XILINX_VITIS: D:/Vitis/2021.2
+XILINX_VIVADO: D:/Vivado/2021.2
+XILINX_VIVADO_HLS: D:/Vivado/2021.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,357 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 78 MB (+79288kb) [00:00:12]
+// [Engine Memory]: 1,357 MB (+1271159kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 61 MB. Current time: 5/8/22, 8:04:52 PM PDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Opening Vivado Project: C:\Users\Student\Desktop\520_final\520_final\hardware\DMA_to_DDR\DMA_to_DDR.xpr. Version: Vivado v2018.2 
+dismissDialog("Older Project Version"); // aK
+// Tcl Message: open_project C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/DMA_to_DDR.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/DMA_to_DDR.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/kg540068/520_final/hardware/DMA_to_DDR' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Student/Desktop/520_final/520_final/hardware/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.2/data/ip'. 
+// Tcl Message: INFO: [Project 1-230] Project 'DMA_to_DDR.xpr' upgraded for this version of Vivado. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 82 MB (+595kb) [00:01:27]
+// [GUI Memory]: 103 MB (+16666kb) [00:01:29]
+// [GUI Memory]: 113 MB (+5078kb) [00:01:30]
+// WARNING: HEventQueue.dispatchEvent() is taking  6425 ms.
+// [GUI Memory]: 128 MB (+9959kb) [00:01:32]
+// WARNING: HEventQueue.dispatchEvent() is taking  1235 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1391.820 ; gain = 0.000 
+// Tcl Command: 'upgrade_project -migrate_output_products'
+// Project name: DMA_to_DDR; location: C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR; part: xc7z010clg400-1
+// Elapsed time: 26 seconds
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Message: upgrade_project -migrate_output_products 
+// [GUI Memory]: 137 MB (+3084kb) [00:01:37]
+// Elapsed time: 53 seconds
+selectButton(PAResourceQtoS.ReportIPStatusInfoDialog_REPORT_IP_STATUS, "Report IP Status"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+dismissDialog("Project Upgraded"); // ak
+// Tcl Command: 'report_ip_status -name ip_status '
+// Tcl Message: report_ip_status -name ip_status  
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1391.820 ; gain = 0.000 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:07:36 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:08:06 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:08:36 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:10:06 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:10:36 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:11:06 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:12:36 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:13:06 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:13:36 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:15:06 PM PDT
+// Elapsed time: 501 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:15:36 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,357 MB. GUI used memory: 78 MB. Current time: 5/8/22, 8:16:06 PM PDT
+// Elapsed time: 41 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a
+// Elapsed time: 10 seconds
+closeMainWindow("DMA_to_DDR - [C:/Users/Student/Desktop/520_final/520_final/hardware/DMA_to_DDR/DMA_to_DDR.xpr] - Vivado 2021.2"); // bb
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'
